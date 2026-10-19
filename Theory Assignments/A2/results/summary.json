@@ -1,0 +1,23 @@
+{
+ "n_images": 33407,
+ "n_attributes": 40,
+ "score_at_0.5": 85.59,
+ "score_tuned": 86.58,
+ "prior_baseline": 54.28,
+ "rare_attributes_below_5pct": 20,
+ "macro_F1_per_attribute": 65.21,
+ "threshold_check": [
+  {
+   "split": "tune A -> test B",
+   "score_at_0.5": 85.51,
+   "score_tuned": 86.34,
+   "gain": 0.83
+  },
+  {
+   "split": "tune B -> test A",
+   "score_at_0.5": 85.64,
+   "score_tuned": 86.54,
+   "gain": 0.9
+  }
+ ]
+}
